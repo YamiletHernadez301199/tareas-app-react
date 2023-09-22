@@ -115,7 +115,7 @@ export const App = () => {
                     <div className="col-md-5 col-xs-12 text-center p-0 d-flex justify-content-center">
                         <FormularioTareas descripcion={descripcion} handleInputChange={handleInputChange} handleSubmit={handleSubmit} />
                     </div>
-                    <div className="col-md-7 col-xs-12 d-flex justify-content-center p-0 bg-danger">
+                    <div className="col-md-7 col-xs-12 d-flex justify-content-center p-0">
                         <div className="row row-cols-1 row-cols-md-2 g-4 ">
                             {
                                 state.map((tarea, index) => {
